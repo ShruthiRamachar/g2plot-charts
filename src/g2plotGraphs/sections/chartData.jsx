@@ -1,52 +1,40 @@
 export const ChartData = {
    AreaChartData: [
     {
-      label: "2010-01",
-      value: 1998
+      label: "Exam 1",
+      value: 20
     },
     {
-      label: "2010-02",
-      value: 1850
+      label: "Exam 2",
+      value: 50
     },
     {
-      label: "2010-03",
-      value: 1720
+      label: "Exam 3",
+      value: 50
     },
     {
-      label: "2016-01",
-      value: 782
+      label: "Exam 4",
+      value: 60
     },
     {
-      label: "2016-02",
-      value: 1089
+      label: "Exam 5",
+      value: 45
     },
     {
-      label: "2016-03",
-      value: 745
+      label: "Exam 6",
+      value: 40
     },
     {
-      label: "2017-01",
-      value: 145
+      label: "Exam 7",
+      value: 50
     },
     {
-      label: "2017-02",
-      value: 207
+      label: "Exam 8",
+      value: 90
     },
     {
-      label: "2017-09",
-      value: 600
-    },
-    {
-      label: "2018-01",
-      value: 300
-    },
-    {
-      label: "2018-02",
-      value: 180
-    },
-    {
-      label: "2018-04",
-      value: 300
+      label: "Exam 9",
+      value: 85
     }
   ],
    StackedBarChartData: [

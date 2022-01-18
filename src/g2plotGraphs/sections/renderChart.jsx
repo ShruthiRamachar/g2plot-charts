@@ -8,7 +8,7 @@ import { DualAxes as DualAxesG2} from "@antv/g2plot";
 import { Link } from "react-router-dom";
 import BackButton from "./../../images/back-button.png";
 
-const RenderChart = ({ graphData, config, chartType }) => {
+const RenderChart = ({ graphData, config, chartType,exampleText }) => {
   const containerRef = useRef();
   const renderPlotRef = useRef();
   let createChart;
@@ -42,14 +42,7 @@ const RenderChart = ({ graphData, config, chartType }) => {
     } else {
       console.log("no container element");
     }
-
-    // return () => {
-    //   if (renderPlotRef.current) {
-    //     renderPlotRef.current.destroy();
-    //   }
-    // };
   }, [graphData]);
-  // console.log("containerRef", containerRef);
 
   return (
     <>
@@ -58,6 +51,7 @@ const RenderChart = ({ graphData, config, chartType }) => {
         <img src={BackButton} className="back-button" />
       </Link>
       <div className="chart-name">{chartType + ' Chart'}</div>
+      <div className="example-text">Ex: {exampleText}</div>
       <div className="chart-outer-container">
         <div id="chart-inner-container" ref={containerRef} />
       </div>

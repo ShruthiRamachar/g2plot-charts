@@ -49,7 +49,7 @@ const GenericAreaChart = ({
       {chartData.length === 0 ? 
         <div className="no-data-indicator">No Data</div>
       :
-      <RenderChart graphData={chartData} config={baseConfig} chartType="Area" />}
+      <RenderChart graphData={chartData} config={baseConfig} chartType="Area" exampleText={'Average Exam scores of a perticular subject'}/>}
     </div>
   );
 };
