@@ -1,0 +1,85 @@
+.g2plot-container{
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  background-color: #f2f9ff 0% 0% no-repeat padding-box !important;
+  
+.main-header{
+  font-size: 30px;
+  text-align: left;
+  color: black;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+ul{
+  margin: 30px;
+}
+
+a{
+  color: #0f72ce;
+}
+
+li::marker{
+  font-size: 20px;
+  color: black;
+}
+
+.sub-header{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sub-header:hover{
+  color: red;
+}
+}
+
+.chart-container{
+  padding: 30px;
+  a{
+    color: black;
+    font-size: 15px;
+  }
+
+  .back-button{
+    margin: 15px;
+    height: 30px;
+  }
+
+  .chart-outer-container{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    margin: 15px;
+    align-items: center;
+  }
+
+  #chart-inner-container{
+    display: block;
+    text-align: center;
+    width: 850px;
+    height: 85%;
+    padding: 40px;
+    border: 1px solid #d9d9d9;
+  }
+
+  .chart-name{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    #chart-inner-container{
+      width: 400px;
+    }
+  }
+}
+
+
