@@ -39,213 +39,253 @@ export const ChartData = {
   ],
    StackedBarChartData: [
     {
-      year: '1991',
-      value: 3,
-      type: 'Lon',
+      country: 'UK',
+      value: 20,
+      type: 'male',
     },
     {
-      year: '1992',
-      value: 4,
-      type: 'Lon',
+      country: 'UK',
+      value: 30,
+      type: 'female',
     },
     {
-      year: '1993',
-      value: 3.5,
-      type: 'Lon',
+      country: 'UK',
+      value: 10,
+      type: 'others',
     },
     {
-      year: '1994',
-      value: 5,
-      type: 'Lon',
+      country: 'India',
+      value: 50,
+      type: 'male',
     },
     {
-      year: '1995',
-      value: 4.9,
-      type: 'Lon',
+      country: 'India',
+      value: 60,
+      type: 'female',
     },
     {
-      year: '1996',
-      value: 6,
-      type: 'Lon',
+      country: 'India',
+      value: 20,
+      type: 'others',
     },
     {
-      year: '1997',
-      value: 7,
-      type: 'Lon',
+      country: 'USA',
+      value: 60,
+      type: 'male',
     },
     {
-      year: '1998',
-      value: 9,
-      type: 'Lon',
-    },
-    {
-      year: '1999',
-      value: 13,
-      type: 'Lon',
-    },
-    {
-      year: '1991',
-      value: 3,
-      type: 'Bor',
-    },
-    {
-      year: '1992',
-      value: 4,
-      type: 'Bor',
-    },
-    {
-      year: '1993',
-      value: 3.5,
-      type: 'Bor',
-    },
-    {
-      year: '1994',
-      value: 5,
-      type: 'Bor',
-    },
-    {
-      year: '1995',
-      value: 4.9,
-      type: 'Bor',
-    },
-    {
-      year: '1996',
-      value: 6,
-      type: 'Bor',
-    },
-    {
-      year: '1997',
-      value: 7,
-      type: 'Bor',
-    },
-    {
-      year: '1998',
-      value: 9,
-      type: 'Bor',
-    },
-    {
-      year: '1999',
-      value: 13,
-      type: 'Bor',
-    },
-  ],
-  MultilineChartData: [
-    {
-      year: "1989",
-      value: 982,
-      category: "Gas fuel"
-    },
-    {
-      year: "1989",
-      value: 156,
-      category: "Cement production"
-    },
-    {
-      year: "1989",
-      value: 41,
-      category: "Gas flarinl"
-    },
-    {
-      year: "1990",
-      value: 2492,
-      category: "Liquid fuel"
-    },
-    {
-      year: "1990",
-      value: 2359,
-      category: "Solid fuel"
-    },
-    {
-      year: "1990",
-      value: 1026,
-      category: "Gas fuel"
-    },
-    {
-      year: "1990",
-      value: 157,
-      category: "Cement production"
-    },
-    {
-      year: "1990",
+      country: 'USA',
       value: 40,
-      category: "Gas flarinl"
+      type: 'female',
     },
     {
-      year: "1991",
-      value: 2601,
-      category: "Liquid fuel"
+      country: 'USA',
+      value: 25,
+      type: 'others',
     },
     {
-      year: "1991",
-      value: 2284,
-      category: "Solid fuel"
+      country: 'Japan',
+      value: 30,
+      type: 'male',
     },
     {
-      year: "1991",
-      value: 1051,
-      category: "Gas fuel"
+      country: 'Japan',
+      value: 25,
+      type: 'female',
     },
     {
-      year: "1991",
-      value: 161,
-      category: "Cement production"
+      country: 'Japan',
+      value: 5,
+      type: 'others',
     },
     {
-      year: "1991",
+      country: 'Germany',
+      value: 55,
+      type: 'male',
+    },
+    {
+      country: 'Germany',
       value: 45,
-      category: "Gas flarinl"
+      type: 'female',
     },
     {
-      year: "1992",
-      value: 2499,
-      category: "Liquid fuel"
+      country: 'Germany',
+      value: 25,
+      type: 'others',
     },
     {
-      year: "2014",
-      value: 568,
-      category: "Cement production"
+      country: 'Brazil',
+      value: 40,
+      type: 'male',
     },
     {
-      year: "2014",
-      value: 68,
-      category: "Gas flarinl"
+      country: 'Brazil',
+      value: 30,
+      type: 'female',
+    },
+    {
+      country: 'Brazil',
+      value: 15,
+      type: 'others',
+    }
+  ],
+  MultilineChartData: [  
+    {
+      month: "Jan",
+      value: 15,
+      category: "Store A"
+    },
+    {
+      month: "Feb",
+      value: 20,
+      category: "Store A"
+    },
+    {
+      month: "Mar",
+      value: 35,
+      category: "Store A"
+    },
+    {
+      month: "Apr",
+      value: 80,
+      category: "Store A"
+    },
+    {
+      month: "May",
+      value: 67,
+      category: "Store A"
+    },
+    {
+      month: "June",
+      value: 51,
+      category: "Store A"
+    },
+    {
+      month: "July",
+      value: 41,
+      category: "Store A"
+    },
+    {
+      month: "Aug",
+      value: 71,
+      category: "Store A"
+    },
+    {
+      month: "Jan",
+      value: 55,
+      category: "Store B"
+    },
+    {
+      month: "Feb",
+      value: 11,
+      category: "Store B"
+    },
+    {
+      month: "Mar",
+      value: 61,
+      category: "Store B"
+    },
+    {
+      month: "Apr",
+      value: 41,
+      category: "Store B"
+    },
+    {
+      month: "May",
+      value: 21,
+      category: "Store B"
+    },
+    {
+      month: "June",
+      value: 41,
+      category: "Store B"
+    },
+    {
+      month: "July",
+      value: 61,
+      category: "Store B"
+    },
+    {
+      month: "Aug",
+      value: 81,
+      category: "Store B"
+    },
+    {
+      month: "Jan",
+      value: 30,
+      category: "Store C"
+    },
+    {
+      month: "Feb",
+      value: 40,
+      category: "Store C"
+    },
+    {
+      month: "Mar",
+      value: 55,
+      category: "Store C"
+    },
+    {
+      month: "Apr",
+      value: 80,
+      category: "Store C"
+    },
+    {
+      month: "May",
+      value: 67,
+      category: "Store C"
+    },
+    {
+      month: "June",
+      value: 21,
+      category: "Store C"
+    },
+    {
+      month: "July",
+      value: 41,
+      category: "Store C"
+    },
+    {
+      month: "Aug",
+      value: 91,
+      category: "Store C"
     }
   ],
   DualLineData: [
-    { year: '1991', value: 3, count: 10 },
-    { year: '1992', value: 4, count: 4 },
-    { year: '1993', value: 3.5, count: 5 },
-    { year: '1994', value: 5, count: 5 },
-    { year: '1995', value: 4.9, count: 4.9 },
-    { year: '1996', value: 6, count: 35 },
-    { year: '1997', value: 7, count: 7 },
-    { year: '1998', value: 9, count: 1 },
-    { year: '1999', value: 13, count: 20 }
+    { year: '1991', sales: 5000, profit_margin: 0 },
+    { year: '1992', sales: 5500, profit_margin: 4 },
+    { year: '1993', sales: 4000, profit_margin: 5 },
+    { year: '1994', sales: 6500, profit_margin: 5 },
+    { year: '1995', sales: 7000, profit_margin: 4.9 },
+    { year: '1996', sales: 4000, profit_margin: 5 },
+    { year: '1997', sales: 4500, profit_margin: 7 },
+    { year: '1998', sales: 5500, profit_margin: 1 },
+    { year: '1999', sales: 6500, profit_margin: 40 }
   ],
   PieChartData:[
     {
-      value: 3,
-      type: 'type1',
+      value: 20,
+      type: 'Cement',
     },
     {
-      value: 4,
-      type: 'type2',
+      value: 25,
+      type: 'Labour',
     },
     {
-      value: 3.5,
-      type: 'type3',
+      value: 10,
+      type: 'Timber',
     },
     {
-      value: 5,
-      type: 'type4',
+      value: 15,
+      type: 'Supervision',
     },
     {
-      value: 4.9,
-      type: 'type5',
+      value: 15,
+      type: 'Steel',
     },
     {
-      value: 6,
-      type: 'type6',
+      value: 15,
+      type: 'Bricks',
     }
   ]
 }

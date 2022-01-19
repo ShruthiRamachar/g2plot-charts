@@ -17,7 +17,7 @@ const GenericLiquidChart = () => {
 
   return (
     <div className="chart-container">
-      <RenderChart config={baseConfig} chartType="Liquid" />
+      <RenderChart config={baseConfig} chartType="Liquid"  exampleText='Profile Completion' />
     </div>
   );
 };

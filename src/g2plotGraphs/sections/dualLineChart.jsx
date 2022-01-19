@@ -8,7 +8,7 @@ const GenericDualLineChart = ({
     // forceFit: true,
     // height: 290,
     xField: 'year',
-  yField: ['value', 'count'],
+  yField: ['sales', 'profit_margin'],
   geometryOptions: [
     {
       geometry: 'line',
@@ -26,7 +26,7 @@ const GenericDualLineChart = ({
       {chartData.length === 0 ? 
         <div className="no-data-indicator">No Data</div>
        :
-      <RenderChart graphData={chartData} config={baseConfig} chartType="DualLine" />}
+      <RenderChart graphData={chartData} config={baseConfig} chartType="DualLine"  exampleText='Sales Vs Profit Margin'/>}
     </div>
   );
 };

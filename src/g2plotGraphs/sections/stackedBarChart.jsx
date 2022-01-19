@@ -10,7 +10,7 @@ const GenericStackedChart = ({
       forceFit: true,
       isStack: true,
       xField: 'value',
-      yField: 'year',
+      yField: 'country',
       seriesField: 'type',
       label: {
         position: 'middle',
@@ -27,7 +27,7 @@ const GenericStackedChart = ({
       {chartData.length === 0 ? 
         <div className="no-data-indicator">No Data</div>
       :
-      <RenderChart graphData={chartData} config={baseConfig} chartType="StackedBar" />}
+      <RenderChart graphData={chartData} config={baseConfig} chartType="StackedBar" exampleText='Population in each country'/>}
     </div>
   );
 };

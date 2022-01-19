@@ -28,7 +28,7 @@ const GenericPieChart = ({
       {chartData.length === 0 ? 
         <div className="no-data-indicator">No Data</div>
       :
-      <RenderChart graphData={chartData} config={baseConfig} chartType="Pie" />}
+      <RenderChart graphData={chartData} config={baseConfig} chartType="Pie"  exampleText='Cost of Construction of House' />}
     </div>
   );
 };

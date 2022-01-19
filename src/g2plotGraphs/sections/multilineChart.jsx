@@ -8,7 +8,7 @@ const GenericMultilineChart = ({
     chartData.splice(1, 0, { label: chartData[0].label, value: 0 });
   const baseConfig = {
     forceFit: true,
-    xField: 'year',
+    xField: 'month',
     yField: 'value',
     seriesField: 'category',
     xAxis: {
@@ -37,7 +37,7 @@ const GenericMultilineChart = ({
       {chartData.length === 0 ? 
         <div className="no-data-indicator">No Data</div>
       :
-      <RenderChart graphData={chartData} config={baseConfig} chartType="Multiline" />}
+      <RenderChart graphData={chartData} config={baseConfig} chartType="Multiline"  exampleText='Sales by Store'/>}
     </div>
   );
 };

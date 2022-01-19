@@ -42,6 +42,12 @@ const RenderChart = ({ graphData, config, chartType,exampleText }) => {
     } else {
       console.log("no container element");
     }
+
+    return () => {
+      if (renderPlotRef.current) {
+        renderPlotRef.current.destroy();
+      }
+    };
   }, [graphData]);
 
   return (
